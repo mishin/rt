@@ -130,7 +130,7 @@ sub Apply {
     }
 
     return $self->Create(
-        CustomField => $tid, ObjectId => $oid,
+        $field => $tid, ObjectId => $oid,
     );
 }
 

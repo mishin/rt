@@ -119,7 +119,7 @@ my $build_admin_menu = sub {
         path        => '/Admin/Global/Scrips.html',
     );
     $scrips->child( select => title => loc('Select'), path => "/Admin/Global/Scrips.html" );
-    $scrips->child( create => title => loc('Create'), path => "/Admin/Scrip/Create.html" );
+    $scrips->child( create => title => loc('Create'), path => "/Admin/Scrips/Create.html" );
 
     my $templates = $admin_global->child( templates =>
         title       => loc('Templates'),
